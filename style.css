@@ -1,0 +1,73 @@
+/*General page styling is here*/
+/*Body styling is here*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body
+{
+    line-height: 1;
+}
+
+/*Container styling begins here*/
+.container
+{
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+@media (min-width: 768px)
+{
+	.container
+	{
+		width: 750px;
+  	}
+}
+@media (min-width: 992px)
+{
+	.container
+  	{
+		width: 970px;
+	}
+}
+@media (min-width: 1200px)
+{
+	.container
+	{
+		width: 1170px;
+	}
+}
+
+
+/* Media Queries */
+/*Media Queries for small phones*/
+@media screen and (min-width: 0px) and (max-width: 299px)
+{
+
+}
+
+/*Media Queries for smartphones such as iPhone 5 phones*/
+@media screen and (min-width: 300px) and (max-width: 374px)
+{
+
+}
+
+/*Media Queries for smartphones such as iPhone 6 - 8 and phablets but not tablets or desktops e.g iPad Pro*/
+@media screen and (min-width: 375px) and (max-width: 959px)
+{
+
+}
+
+/*Media Queries for very large screens such as laptops*/
+@media screen and (min-width: 960px)
+{
+
+}
